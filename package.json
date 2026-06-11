@@ -1,0 +1,27 @@
+{
+  "name": "why-stop-at-2953",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 9440",
+    "build": "next build",
+    "start": "next start -p 9440",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@bokuweb/zstd-wasm": "^0.0.27",
+    "fflate": "^0.8.3",
+    "jsqr": "^1.4.0",
+    "next": "^16.2.9",
+    "qrcode": "^1.5.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}
